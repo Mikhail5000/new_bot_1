@@ -8,6 +8,7 @@ theme: /
 
     state: Hello
         intent!: /привет
+        q!: * (привет/здравствуй*/~добрый (~утро/~вечер/~день/~ночь)/hello/hi) *
         a: Привет!
         
     state: Weather

@@ -22,7 +22,7 @@
   }, {
     "id" : "/Weather",
     "name" : "NewState",
-    "x" : 242,
+    "x" : 245,
     "y" : 1048
   }, {
     "id" : "/Currency",
