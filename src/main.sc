@@ -12,11 +12,11 @@ theme: /
         
         
     state: Weather
-        intent!: /привет
+        intent!: /погода
         a: Сегодня облачно, возможны осадки в виде фрикаделек
-        
+
     state: Currency
-        intent!: /привет
+        intent!: /курс валют
         a: На рынке все хорошо! Доллар и Евро ниже 100
 
     state: Bye

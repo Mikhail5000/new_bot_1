@@ -32,6 +32,30 @@
       "text" : "Погода"
     }, {
       "text" : "погода"
+    }, {
+      "text" : "Weather"
+    }, {
+      "text" : "Какая погода"
+    }, {
+      "text" : "какая погода"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/курс валют",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "курс"
+    }, {
+      "text" : "курс валют"
+    }, {
+      "text" : "currency"
+    }, {
+      "text" : "Currency"
     } ],
     "classificationRules" : {
       "refs" : [ ]
