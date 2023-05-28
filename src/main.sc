@@ -34,8 +34,6 @@ theme: /
 
     state: NoMatch
         event!: noMatch
-        a: Я не понял. Вы сказали: {{$request.query}}
-
-    state: Match
-        event!: match
-        a: Я понял. Вы сказали: {{$context.intent.answer}}
+        random:
+            a: Я не понял. Вы сказали: {{$request.query}}
+            a: Увы, я не понимаю. Вы сказали: {{$request.query}}
