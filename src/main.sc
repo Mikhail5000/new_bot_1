@@ -10,7 +10,6 @@ theme: /
         intent!: /привет
         a: Привет!
         
-        
     state: Weather
         intent!: /погода
         a: Сегодня облачно, возможны осадки в виде фрикаделек
@@ -29,4 +28,4 @@ theme: /
 
     state: Match
         event!: match
-        a: {{$context.intent.answer}}
+        a: Я понял. Вы сказали: {{$context.intent.answer}}
