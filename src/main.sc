@@ -7,17 +7,17 @@ theme: /
         a: Начнём.
 
     state: Hello
-        intent!: /привет
+        intent!: /hello
         q!: * (привет/здравствуй*/~добрый (~утро/~вечер/~день/~ночь)/hello/hi) *
-        random:
+        random: 
             a: Привет!
             a: Здравствуйте!
             a: Добрый день!
-        
+
     state: Weather
-        intent!: /погода
+        intent!: /currency
         q!: * (погода/weather/на улице) *
-        random:
+        random: 
             a: Сегодня облачно, возможны осадки в виде фрикаделек
             a: Хорошая погода
 

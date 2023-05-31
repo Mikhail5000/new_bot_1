@@ -23,7 +23,7 @@
     }
   },
   "intents" : [ {
-    "path" : "/погода",
+    "path" : "/weather",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
@@ -49,7 +49,7 @@
     "patterns" : [ ],
     "priority" : 0
   }, {
-    "path" : "/курс валют",
+    "path" : "/currency",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
@@ -90,7 +90,7 @@
     },
     "priority" : 0
   }, {
-    "path" : "/привет",
+    "path" : "/hello",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
@@ -99,6 +99,7 @@
     "classificationRules" : {
       "refs" : [ ]
     },
+    "patterns" : [ ],
     "priority" : 0
   } ],
   "entities" : [ ],
