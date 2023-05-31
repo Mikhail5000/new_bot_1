@@ -28,10 +28,6 @@ theme: /
             a: На рынке все хорошо! Доллар и Евро ниже 100
             a: На рынке стабильно
 
-    state: Bye
-        intent!: /пока
-        a: Пока пока
-
     state: NoMatch
         event!: noMatch
         random:
