@@ -16,7 +16,7 @@ theme: /
 
     state: Weather
         intent!: /weather
-        q!: * (погод/weather/на улице/дождь) *
+        q!: * (погод*/weather/на улице/дождь) *
         random: 
             a: Сегодня облачно, возможны осадки в виде фрикаделек
             a: Хорошая погода
@@ -30,6 +30,7 @@ theme: /
 
     state: NoMatch
         intent: /NoMatch
+        q!: *
         #event!: noMatch
         random:
             a: Я не понял. Вы сказали: {{$request.query}}
