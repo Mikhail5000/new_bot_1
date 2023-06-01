@@ -23,7 +23,7 @@ theme: /
 
     state: Currency
         intent!: /currency
-        q!: * (валют/курс/currency) *
+        q!: * (валют*/курс/currency/доллар*/рубл*) *
         random: 
             a: На рынке все хорошо! Доллар и Евро ниже 100
             a: На рынке стабильно
