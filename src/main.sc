@@ -29,8 +29,8 @@ theme: /
             a: На рынке стабильно
 
     state: NoMatch
+        intent: /NoMatch
         event!: noMatch
-        intent!: /NoMatch
         random:
             a: Я не понял. Вы сказали: {{$request.query}}
             a: Увы, я не понимаю. Вы сказали: {{$request.query}}

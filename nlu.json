@@ -102,12 +102,14 @@
     "patterns" : [ ],
     "priority" : 0
   }, {
-    "path" : "/Новый интент",
+    "path" : "/NoMatch",
     "enabled" : true,
     "shared" : false,
+    "phrases" : [ ],
     "classificationRules" : {
       "refs" : [ ]
     },
+    "patterns" : [ ],
     "priority" : 0
   } ],
   "entities" : [ ],
