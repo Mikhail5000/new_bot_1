@@ -6,7 +6,7 @@ theme: /
         q!: $regex</start>
         a: Начнём.
 
-    state: Hello
+    state: hello
         intent!: /hello
         q!: * (привет/здравствуй*/~добрый (~утро/~вечер/~день/~ночь)/hello/hi) *
         random: 
@@ -14,14 +14,14 @@ theme: /
             a: Здравствуйте!
             a: Добрый день!
 
-    state: Weather
+    state: weather
         intent!: /weather
         q!: * (погод*/weather/на улице/дождь) *
         random: 
             a: Сегодня облачно, возможны осадки в виде фрикаделек
             a: Хорошая погода
 
-    state: Currency
+    state: currency
         intent!: /currency
         q!: * (валют*/курс/currency/доллар*/рубл*) *
         random: 
