@@ -15,16 +15,16 @@ theme: /
             a: Добрый день!
 
     state: Weather
-        intent!: /currency
+        intent!: /weather
         q!: * (погод/weather/на улице/дождь) *
         random: 
             a: Сегодня облачно, возможны осадки в виде фрикаделек
             a: Хорошая погода
 
     state: Currency
-        intent!: /курс валют
+        intent!: /currency
         q!: * (валют/курс/currency) *
-        random:
+        random: 
             a: На рынке все хорошо! Доллар и Евро ниже 100
             a: На рынке стабильно
 
