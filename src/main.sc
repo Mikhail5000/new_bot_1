@@ -30,7 +30,7 @@ theme: /
 
     state: NoMatch
         intent: /NoMatch
-        event!: noMatch
+        #event!: noMatch
         random:
             a: Я не понял. Вы сказали: {{$request.query}}
             a: Увы, я не понимаю. Вы сказали: {{$request.query}}
